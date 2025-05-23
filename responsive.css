@@ -1,0 +1,239 @@
+@media (min-width:300px) and (max-width:1474px) {
+
+
+    .header {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .header-logo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .header-nav {
+        margin-top: 30px;
+    }
+
+    .titles {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 100%;
+        margin-top: 30px;
+        align-items: center;
+        gap: 20px;
+        display: none;
+    }
+    .titles2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 100%;
+        height: 400px;
+        margin-top: 30px;
+        align-items: center;
+        gap: 20px;
+      
+    }
+
+
+    .second-side a {
+        color: black;
+        font-family: 'Noto Sans Georgian';
+        transition: .3s;
+        font-size: 15px;
+        width: max-content;
+        position: relative;
+        left: 0px;
+
+    }
+
+
+    .input-search input {
+        width: 200px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 10px;
+        padding-right: 60px;
+        border: 2px solid #fec900;
+        border-radius: 20px;
+
+
+    }
+
+
+    .search {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 50px;
+        gap: 20px;
+    }
+}
+
+
+
+@media (min-width:100px) and (max-width:300) {
+    .card1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .card1 img {
+        width: 30px;
+        height: 30px;
+
+    }
+
+
+    .card1 h3 {
+        font-weight: 500;
+        font-family: 'Noto Sans Georgian';
+        color: #222222;
+        width: 30px;
+        font-size: 12px;
+
+    }
+
+    .info-cards {
+        align-items: center;
+        margin-left: 1140px;
+    }
+
+
+
+}
+
+@media (min-width:500px) and (max-width:1440px) {
+    .blogs {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        gap: 80px;
+        margin-top: 60px;
+        align-items: center;
+
+    }
+
+
+    .blog-text {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-left: 20px;
+        width: 295px;
+        height: 48px;
+        align-items: center;
+
+    }
+
+    .footer-section {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 0px;
+        align-items: center;
+
+
+    }
+
+
+    .span {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        margin-top: 0px;
+        margin-right: 0px;
+    }
+
+    .categories {
+        width: 300px;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        flex-wrap: nowrap;
+        text-align: center;
+        position: relative;
+        right: 30px;
+
+
+    }
+
+    .navigation {
+        width: 250px;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        flex-wrap: wrap;
+        text-align: center;
+        position: relative;
+        right: 10px;
+
+    }
+
+
+    .help {
+        width: 250px;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        flex-wrap: wrap;
+        text-align: center;
+        position: relative;
+        right: 10px;
+
+    }
+
+    .icons {
+
+        position: relative;
+        left: 40px;
+    }
+
+    .rules {
+        display: flex;
+        flex-direction: column;
+        margin-top: 170px;
+        text-align: center;
+        position: relative;
+        right: 80px;
+        gap: 15px;
+
+
+    }
+
+    .logos {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: 40px;
+        text-align: center;
+        position: relative;
+        right: 90px;
+
+    }
+
+    .logos img {
+        width: 27px;
+    }
+
+
+
+
+}
